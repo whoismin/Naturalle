@@ -8,27 +8,29 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
+     *
+     * @return void
      */
-    public function up(): void
+    public function up()
     {
-        Schema::create('cart', function (Blueprint $table){
-            $table->id();
+        Schema::create('cart', function (Blueprint $table) {
+            $table->bigIncrements('id');
             $table->unsignedBigInteger('user_id');
-            $table->unisignedBigInteger('product_id');
+            $table->unsignedBigInteger('product_id');
             $table->string('name');
-            $table->usinignedBigInteger('price');
-            $table->uninignedBigInteger('quantity');
+            $table->unsignedBigInteger('price');
+            $table->unsignedBigInteger('quantity');
             $table->string('image');
-
-            $table->foreign('user_id')->references('id')->on('user')->onDelete('cascade');
-            $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
+            $table->timestamps();
         });
     }
 
     /**
      * Reverse the migrations.
+     *
+     * @return void
      */
-    public function down(): void
+    public function down()
     {
         Schema::dropIfExists('cart');
     }
