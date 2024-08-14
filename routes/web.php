@@ -22,12 +22,12 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::prefix('admin')->middleware('auth')->group(function () {
-    Route::get('/products/create', [ProductController::class, 'create'])->name('products.create');
-    Route::post('/products', [ProductController::class, 'store'])->name('products.store');
-    Route::get('/products', [ProductController::class, 'index'])->name('products.index');
-    Route::delete('/products/{id}', [ProductController::class, 'destroy'])->name('products.destroy');
-});
+// Route::prefix('admin')->middleware('auth')->group(function () {
+    Route::get('admin/products/create', [ProductController::class, 'create'])->name('products.create');
+    Route::post('admin/products', [ProductController::class, 'store'])->name('products.store');
+    Route::get('admin/products', [ProductController::class, 'index'])->name('products.index');
+    Route::delete('admin/products/{id}', [ProductController::class, 'destroy'])->name('products.destroy');
+// });
 
 // Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('/admin/orders', [OrderController::class, 'index'])->name('orders.index');
@@ -40,11 +40,9 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('admin/users/delete/{id}', [UserController::class, 'destroy'])->name('admin.users.delete');
 // });
 
-use App\Http\Controllers\ContactController;
-
 // Route::prefix('admin')->middleware('auth')->group(function () {
-    Route::get('admin/messages', [MessageController::class, 'index'])->name('admin.contacts.index');
-    Route::get('admin/messages/delete/{id}', [MessageController::class, 'destroy'])->name('admin.contacts.delete');
+    Route::get('admin/messages', [MessageController::class, 'index'])->name('admin.messages.index');
+    Route::get('admin/messages/delete/{id}', [MessageController::class, 'destroy'])->name('admin.messages.delete');
 // });
 
 
