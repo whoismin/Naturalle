@@ -13,10 +13,10 @@
 
         <nav class="navbar">
             <a href="{{ url('admin_page.php') }}">Início</a>
-            <a href="{{ url('admin_products.php') }}">Produtos</a>
-            <a href="{{ url('admin_orders.php') }}">Pedidos</a>
-            <a href="{{ url('admin_users.php') }}">Usuários</a>
-            <a href="{{ url('admin_contacts.php') }}">Mensagens</a>
+            <a href="{{ url('admin/products') }}">Produtos</a>
+            <a href="{{ url('admin/orders') }}">Pedidos</a>
+            <a href="{{ url('admin/users') }}">Usuários</a>
+            <a href="{{ url('admin/messages') }}">Mensagens</a>
         </nav>
 
         <div class="icons">
