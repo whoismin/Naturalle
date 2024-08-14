@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Cadastroong extends Model
+class Ong extends Model
 {
     protected $table = 'cadastroong';
     protected $fillable = [
