@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\OrderController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -26,5 +27,10 @@ Route::middleware('auth')->group(function () {
     Route::delete('/products/{id}', [ProductController::class, 'destroy'])->name('products.destroy');
 });
 
+// Route::middleware('auth')->group(function () {
+    Route::get('/admin/orders', [OrderController::class, 'index'])->name('orders.index');
+    Route::post('/admin/update_order', [OrderController::class, 'update'])->name('orders.update');
+    Route::get('/admin/delete_order/{id}', [OrderController::class, 'destroy'])->name('orders.delete');
+// });
 
 require __DIR__.'/auth.php';
