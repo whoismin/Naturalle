@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MessageController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\OrderController;
@@ -38,5 +39,13 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('admin/users', [UserController::class, 'index'])->name('admin.users.index');
     Route::get('admin/users/delete/{id}', [UserController::class, 'destroy'])->name('admin.users.delete');
 // });
+
+use App\Http\Controllers\ContactController;
+
+// Route::prefix('admin')->middleware('auth')->group(function () {
+    Route::get('admin/messages', [MessageController::class, 'index'])->name('admin.contacts.index');
+    Route::get('admin/messages/delete/{id}', [MessageController::class, 'destroy'])->name('admin.contacts.delete');
+// });
+
 
 require __DIR__.'/auth.php';
