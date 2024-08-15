@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="assets/css/admin_style.css">
+    @stack('styles')
 </head>
 
 <body class="font-sans antialiased">

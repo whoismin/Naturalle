@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@push('styles')
+    <link rel="stylesheet" href="{{asset('css/admin_style.css') }}">
+@endpush
+
 @section('content')
 
     @include('components.header-admin')
