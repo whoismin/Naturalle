@@ -1,7 +1,7 @@
 <h1 align="center">Naturalle</h1> <br>
 <p align="center">
   <a  href="https://github.com/whoismin/Naturalle">
-    <img alt="Naturalle Logo" title="GitPoint" src="assets/logo.png" width="450">
+    <img alt="Naturalle Logo" title="GitPoint" src="imagens/logo.png" width="450">
   </a>
 </p>
 
