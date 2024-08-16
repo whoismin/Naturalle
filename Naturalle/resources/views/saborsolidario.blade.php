@@ -92,7 +92,7 @@
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#" class="navbar-link hover-underline">
+                        <a href="{{ url('/ongcad') }}" class="navbar-link hover-underline">
                             <div class="separator"></div>
                             <span class="span">Ongs Cadastradas</span>
                         </a>
