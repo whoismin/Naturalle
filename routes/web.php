@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ProductController;
@@ -45,5 +46,6 @@ Route::middleware('auth')->group(function () {
     Route::get('admin/messages/delete/{id}', [MessageController::class, 'destroy'])->name('admin.messages.delete');
 // });
 
+Route::get('/admin', [AdminController::class, 'dashboard'])->name('admin.dashboard');
 
 require __DIR__.'/auth.php';

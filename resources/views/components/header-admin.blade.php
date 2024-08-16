@@ -12,7 +12,7 @@
         <a href="{{ url('admin_page.php') }}" class="logo">Painel de Admin<span>el</span></a>
 
         <nav class="navbar">
-            <a href="{{ url('admin_page.php') }}">Início</a>
+            <a href="{{ url('admin') }}">Início</a>
             <a href="{{ url('admin/products') }}">Produtos</a>
             <a href="{{ url('admin/orders') }}">Pedidos</a>
             <a href="{{ url('admin/users') }}">Usuários</a>
