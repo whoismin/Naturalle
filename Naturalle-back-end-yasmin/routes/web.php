@@ -5,12 +5,30 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\WishlistController;
+use App\Http\Controllers\ShopController;
+use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ProductController;
 
+Route::get('/products', [ProductController::class, 'index'])->name('products.index');
+Route::post('/wishlist', [ProductController::class, 'addToWishlist'])->name('products.addToWishlist');
+Route::post('/cart', [ProductController::class, 'addToCart'])->name('products.addToCart');
 
-Route::get('/products', [ProductController::class, 'index']);
-Route::post('/add-to-wishlist', [ProductController::class, 'addToWishlist'])->name('add.to.wishlist');
-Route::post('/add-to-cart', [ProductController::class, 'addToCart'])->name('add.to.cart');
+
+Route::get('/checkout', [OrderController::class, 'show'])->name('checkout');
+Route::post('/checkout', [OrderController::class, 'store']);
+
+
+Route::middleware(['auth'])->group(function () {
+    Route::post('/wishlist/add', [ShopController::class, 'addToWishlist'])->name('wishlist.add');
+    Route::post('/cart/add', [ShopController::class, 'addToCart'])->name('cart.add');
+    Route::get('/products', [ShopController::class, 'showProducts'])->name('products.index');
+});
+
+Route::put('/cart/{id}', [CartController::class, 'update'])->name('cart.update');
+
+Route::get('/orders', [OrderController::class, 'index'])->name('orders.index');
+
+
 
 Route::get('/', function () {
     return view('welcome');
