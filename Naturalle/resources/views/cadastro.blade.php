@@ -4,24 +4,24 @@
 @section('title', 'Home - Naturalle')
 
 @section('additional-css')
-    <link rel="stylesheet" href="{{ asset('assets/css/components.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/components.css') }}">
 @endsection
 
 @section('content')
 @if ($errors->any())
-    <div class="message">
-        @foreach ($errors->all() as $error)
-            <span>{{ $error }}</span>
-        @endforeach
-        <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
-    </div>
+<div class="message">
+    @foreach ($errors->all() as $error)
+    <span>{{ $error }}</span>
+    @endforeach
+    <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
+</div>
 @endif
 
 @if (session('success'))
-    <div class="message success">
-        <span>{{ session('success') }}</span>
-        <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
-    </div>
+<div class="message success">
+    <span>{{ session('success') }}</span>
+    <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
+</div>
 @endif
 
 <section class="form-container">
@@ -38,4 +38,4 @@
     </form>
 </section>
 
- @endsection
+@endsection

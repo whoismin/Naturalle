@@ -11,6 +11,10 @@ Route::get('/saborsolidario', function () {
     return view('saborsolidario');
 });
 
+Route::get('/ongcad', function () {
+    return view('ongcad');
+});
+
 Route::get('/', function () {
     return view('home');
 });

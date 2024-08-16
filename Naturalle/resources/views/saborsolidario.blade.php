@@ -12,7 +12,8 @@
     <link rel="shortcut icon" href="{{ asset('assets/images/LOGOPROJETO.svg') }}" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/projeto.css') }}">
     <link rel="preload" as="image" href="{{ asset('assets/images/hero-slider-1.jpg') }}">
     <link rel="preload" as="image" href="{{ asset('assets/images/hero-slider-2.jpg') }}">
@@ -68,7 +69,8 @@
                     <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
                 </button>
                 <a href="#" class="logo">
-                    <img src="{{ asset('assets/images/LogoBrancaNaturalle.png') }}" width="160" height="50" alt="Grilli - Home">
+                    <img src="{{ asset('assets/images/LogoBrancaNaturalle.png') }}" width="160" height="50"
+                        alt="Grilli - Home">
                 </a>
                 <ul class="navbar-list">
                     <li class="navbar-item">
@@ -96,7 +98,7 @@
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="{{ url('/') }}"  class="navbar-link hover-underline">
+                        <a href="{{ url('/') }}" class="navbar-link hover-underline">
                             <div class="separator"></div>
                             <span class="span">Restaurante</span>
                         </a>
@@ -124,10 +126,10 @@
             <div class="overlay" data-nav-toggler data-overlay></div>
         </div>
     </header>
-    
 
-   <!-- Foto Home -->
-   <section class="hero" id="home">
+
+    <!-- Foto Home -->
+    <section class="hero" id="home">
         <div class="container">
             <p class="section-subtitle">
                 <img src="{{ asset('assets/images/subtitle-img-white.png') }}" width="32" height="7" alt="Wavy line">
@@ -145,13 +147,16 @@
     <!-- Special Dish -->
     <section class="special-dish text-center" aria-labelledby="dish-label" id="ComoFunciona">
         <div class="special-dish-banner">
-            <img src="{{ asset('assets/images/Voluntario.jpg') }}" width="940" height="900" loading="lazy" alt="special dish" class="img-cover">
+            <img src="{{ asset('assets/images/Voluntario.jpg') }}" width="940" height="900" loading="lazy"
+                alt="special dish" class="img-cover">
         </div>
         <div class="special-dish-content bg-black-10">
             <div class="container">
-                <img src="{{ asset('assets/images/badge-1.png') }}" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+                <img src="{{ asset('assets/images/badge-1.png') }}" width="28" height="41" loading="lazy" alt="badge"
+                    class="abs-img">
                 <p class="section-subtitle">
-                    <img src="{{ asset('assets/images/subtitle-img-green.png') }}" width="32" height="7" alt="Wavy line">
+                    <img src="{{ asset('assets/images/subtitle-img-green.png') }}" width="32" height="7"
+                        alt="Wavy line">
                     <span>Como Funciona</span>
                 </p>
                 <h2 class="h2 section-title">
@@ -162,7 +167,8 @@
                 </ul>
                 <div class="tab-content active" id="mission">
                     <p class="section-text">
-                        O "Sabor Solidário" é mais do que um projeto, é uma missão de amor e compaixão que acontece no coração do nosso restaurante. Aqui está como isso funciona:
+                        O "Sabor Solidário" é mais do que um projeto, é uma missão de amor e compaixão que acontece no
+                        coração do nosso restaurante. Aqui está como isso funciona:
                     </p>
                     <ul class="tab-list">
                         <li class="tab-item">
@@ -198,7 +204,8 @@
                 </div>
                 <div class="tab-content" id="plan">
                     <p class="section-text">
-                        Nosso próximo plano é expandir o projeto "Sabor Solidário" para ajudar ainda mais pessoas em necessidade.
+                        Nosso próximo plano é expandir o projeto "Sabor Solidário" para ajudar ainda mais pessoas em
+                        necessidade.
                     </p>
                 </div>
                 <a href="{{ url('SaborSolidario') }}" class="btn btn-primary">
@@ -207,18 +214,22 @@
                 </a>
             </div>
         </div>
-        <img src="{{ asset('assets/images/shape-4.png') }}" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
-        <img src="{{ asset('assets/images/shape-9.png') }}" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+        <img src="{{ asset('assets/images/shape-4.png') }}" width="179" height="359" loading="lazy" alt=""
+            class="shape shape-1">
+        <img src="{{ asset('assets/images/shape-9.png') }}" width="351" height="462" loading="lazy" alt=""
+            class="shape shape-2">
     </section>
 
     <!-- CTA -->
     <section class="section cta">
         <div class="container">
             <div class="cta-content">
-                <h2 class="h2 section-title">O Projeto 'Sabor Solidário' já ajudou mais de 100 famílias e pessoas em estado de vulnerabilidade</h2>
+                <h2 class="h2 section-title">O Projeto 'Sabor Solidário' já ajudou mais de 100 famílias e pessoas em
+                    estado de vulnerabilidade</h2>
             </div>
             <figure class="cta-banner">
-                <img src="{{ asset('assets/images/CRIANCAS-FAMILIAAJUDADAS.jpg') }}" width="520" height="228" loading="lazy" alt="Fox" class="img-cover">
+                <img src="{{ asset('assets/images/CRIANCAS-FAMILIAAJUDADAS.jpg') }}" width="520" height="228"
+                    loading="lazy" alt="Fox" class="img-cover">
             </figure>
         </div>
     </section>
@@ -235,12 +246,17 @@
             </h2>
             <h3 class="testi-name">Sendo Cliente</h3>
             <p class="testi-title">
-                É simples participar do nosso projeto. Basta comprar uma refeição em nosso restaurante, e automaticamente uma marmita será adicionada ao seu carrinho de compras. Essa marmita não é apenas uma refeição adicional para você; é também uma forma de ajudar aqueles que mais precisam.
+                É simples participar do nosso projeto. Basta comprar uma refeição em nosso restaurante, e
+                automaticamente uma marmita será adicionada ao seu carrinho de compras. Essa marmita não é apenas uma
+                refeição adicional para você; é também uma forma de ajudar aqueles que mais precisam.
             </p>
             <br>
             <h3 class="testi-name">Sendo Ong</h3>
             <p class="testi-title">
-                O processo de inscrição é simples e rápido. Basta preencher um formulário online com informações sobre a sua organização, sua missão e como você planeja utilizar as marmitas doadas. Quando um cliente comprar uma refeição em nosso restaurante e optar por doar uma marmita, você será automaticamente selecionado como uma das ONGs beneficiárias. Receberá as marmitas doadas de acordo com as escolhas dos clientes.
+                O processo de inscrição é simples e rápido. Basta preencher um formulário online com informações sobre a
+                sua organização, sua missão e como você planeja utilizar as marmitas doadas. Quando um cliente comprar
+                uma refeição em nosso restaurante e optar por doar uma marmita, você será automaticamente selecionado
+                como uma das ONGs beneficiárias. Receberá as marmitas doadas de acordo com as escolhas dos clientes.
             </p>
             <div class="testi-card">
                 <figure class="card-avatar"></figure>
@@ -250,7 +266,8 @@
             </div>
         </div>
         <figure class="testi-banner">
-            <img src="{{ asset('assets/images/Ong.jpg') }}" width="960" height="846" loading="lazy" alt="Rhinoceros" class="img-cover">
+            <img src="{{ asset('assets/images/Ong.jpg') }}" width="960" height="846" loading="lazy" alt="Rhinoceros"
+                class="img-cover">
         </figure>
     </section>
 
@@ -258,16 +275,22 @@
     <section class="section partner">
         <div class="container">
             <a href="{{ url('ongs') }}" class="partner-logo">
-                <img src="{{ asset('assets/images/MUNDOSEMFOME.png') }}" width="157" height="55" loading="lazy" alt="Children Fund" class="gray">
-                <img src="{{ asset('assets/images/MUNDOSEMFOME.png') }}" width="157" height="55" loading="lazy" alt="Children Fund" class="color">
+                <img src="{{ asset('assets/images/MUNDOSEMFOME.png') }}" width="157" height="55" loading="lazy"
+                    alt="Children Fund" class="gray">
+                <img src="{{ asset('assets/images/MUNDOSEMFOME.png') }}" width="157" height="55" loading="lazy"
+                    alt="Children Fund" class="color">
             </a>
             <a href="{{ url('ongs') }}" class="partner-logo">
-                <img src="{{ asset('assets/images/CRIANCASFELIZES.png') }}" width="163" height="55" loading="lazy" alt="Non Profit Agency" class="gray">
-                <img src="{{ asset('assets/images/CRIANCASFELIZES.png') }}" width="163" height="55" loading="lazy" alt="Non Profit Agency" class="color">
+                <img src="{{ asset('assets/images/CRIANCASFELIZES.png') }}" width="163" height="55" loading="lazy"
+                    alt="Non Profit Agency" class="gray">
+                <img src="{{ asset('assets/images/CRIANCASFELIZES.png') }}" width="163" height="55" loading="lazy"
+                    alt="Non Profit Agency" class="color">
             </a>
             <a href="{{ url('ongs') }}" class="partner-logo">
-                <img src="{{ asset('assets/images/AMORECURA.png') }}" width="149" height="55" loading="lazy" alt="Rise Hand Help Us" class="gray">
-                <img src="{{ asset('assets/images/AMORECURA.png') }}" width="149" height="55" loading="lazy" alt="Rise Hand Help Us" class="color">
+                <img src="{{ asset('assets/images/AMORECURA.png') }}" width="149" height="55" loading="lazy"
+                    alt="Rise Hand Help Us" class="gray">
+                <img src="{{ asset('assets/images/AMORECURA.png') }}" width="149" height="55" loading="lazy"
+                    alt="Rise Hand Help Us" class="color">
             </a>
         </div>
     </section>
@@ -278,7 +301,9 @@
             <div class="about-content">
                 <h2 class="headline-1 section-title">Nossa Historia</h2>
                 <p class="section-text">
-                    A Naturalle é um restaurante vegano e vegetariano que não apenas oferece alimentos de qualidade e confiáveis, mas também contém um projeto socioambiental chamado 'Sabor Solidário' em parceria com diversas ONGs
+                    A Naturalle é um restaurante vegano e vegetariano que não apenas oferece alimentos de qualidade e
+                    confiáveis, mas também contém um projeto socioambiental chamado 'Sabor Solidário' em parceria com
+                    diversas ONGs
                 </p>
                 <a href="#" class="btn btn-primary">
                     <span class="text text-1">Ver mais</span>
@@ -286,17 +311,21 @@
                 </a>
             </div>
             <figure class="about-banner">
-                <img src="{{ asset('assets/images/about-banner.jpg') }}" width="570" height="570" loading="lazy" alt="about banner" class="w-100" data-parallax-item data-parallax-speed="1">
+                <img src="{{ asset('assets/images/about-banner.jpg') }}" width="570" height="570" loading="lazy"
+                    alt="about banner" class="w-100" data-parallax-item data-parallax-speed="1">
                 <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
-                    <img src="{{ asset('assets/images/about-abs-image.jpg') }}" width="285" height="285" loading="lazy" alt="" class="w-100">
+                    <img src="{{ asset('assets/images/about-abs-image.jpg') }}" width="285" height="285" loading="lazy"
+                        alt="" class="w-100">
                 </div>
             </figure>
-            <img src="{{ asset('assets/images/shape-3.png') }}" width="197" height="194" loading="lazy" alt="" class="shape">
+            <img src="{{ asset('assets/images/shape-3.png') }}" width="197" height="194" loading="lazy" alt=""
+                class="shape">
         </div>
     </section>
 
     <!-- Services -->
-    <section class="section service" id="service" style="background-image: url('{{ asset('assets/images/service-map.png') }}')">
+    <section class="section service" id="service"
+        style="background-image: url('{{ asset('assets/images/service-map.png') }}')">
         <div class="container">
             <p class="section-subtitle">
                 <img src="{{ asset('assets/images/subtitle-img-green.png') }}" width="32" height="7" alt="Wavy line">
@@ -315,7 +344,8 @@
                         <p class="card-text">
                             Tempor incididunt ut labores dolore magna suspene
                         </p>
-                        <a href="https://www.iberdrola.com/sustentabilidade/desperdicio-de-alimentos#:~:text=Os%20dados%20anteriores%20correspondem%20aos,gases%20respons%C3%A1veis%20pelo%20aquecimento%20global." class="btn-link">
+                        <a href="https://www.iberdrola.com/sustentabilidade/desperdicio-de-alimentos#:~:text=Os%20dados%20anteriores%20correspondem%20aos,gases%20respons%C3%A1veis%20pelo%20aquecimento%20global."
+                            class="btn-link">
                             <span>Leia mais</span>
                             <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
                         </a>
@@ -372,83 +402,84 @@
 
     <footer class="footer section has-bg-image text-center"
         style="background-image: url('{{ asset('assets/images/Footer2.jpg') }}')">
-    <div class="container">
+        <div class="container">
 
-        <div class="footer-top grid-list">
+            <div class="footer-top grid-list">
 
-            <div class="footer-brand has-before has-after">
+                <div class="footer-brand has-before has-after">
 
-                <a href="#" class="logo">
-                    <img src="{{ asset('assets/images/LogoBrancaNaturalle.png') }}" width="270" height="80" loading="lazy" alt="grilli home">
-                </a>
+                    <a href="#" class="logo">
+                        <img src="{{ asset('assets/images/LogoBrancaNaturalle.png') }}" width="270" height="80"
+                            loading="lazy" alt="grilli home">
+                    </a>
 
-                <address class="body-4">
-                    Restaurante Naturalle, São Paulo 123
-                </address>
+                    <address class="body-4">
+                        Restaurante Naturalle, São Paulo 123
+                    </address>
 
-                <a href="mailto:booking@grilli.com" class="body-4 contact-link">naturalle@gmail.com</a>
+                    <a href="mailto:booking@grilli.com" class="body-4 contact-link">naturalle@gmail.com</a>
 
-                <a href="tel:+000000000" class="body-4 contact-link">Telefone: (11)981765432</a>
+                    <a href="tel:+000000000" class="body-4 contact-link">Telefone: (11)981765432</a>
 
-                <p class="body-4">
-                    Funcionamento: 11:00 às 23:30
-                </p>
+                    <p class="body-4">
+                        Funcionamento: 11:00 às 23:30
+                    </p>
 
-                <div class="wrapper">
-                    <div class="separator"></div>
-                    <div class="separator"></div>
-                    <div class="separator"></div>
+                    <div class="wrapper">
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                    </div>
+
+                    <p class="title-1">Cadastre-se e ganhe</p>
+
+                    <p class="label-1">
+                        Cadastre-se e Ganhe <span class="span">25% Off</span>
+                    </p>
+
                 </div>
 
-                <p class="title-1">Cadastre-se e ganhe</p>
+                <ul class="footer-list">
+                    <li>
+                        <a href="{{ url('/') }}" class="label-2 footer-link hover-underline">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Menu</a>
+                    </li>
+                    <li>
+                        <a href="{{ url('sobrenos') }}" class="label-2 footer-link hover-underline">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="#ComoFunciona" class="label-2 footer-link hover-underline">Nosso Projeto</a>
+                    </li>
+                    <li>
+                        <a href="{{ url('delivery') }}" class="label-2 footer-link hover-underline">Delivery</a>
+                    </li>
+                </ul>
 
-                <p class="label-1">
-                    Cadastre-se e Ganhe <span class="span">25% Off</span>
-                </p>
+                <ul class="footer-list">
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Google Maps</a>
+                    </li>
+                </ul>
 
             </div>
 
-            <ul class="footer-list">
-                <li>
-                    <a href="{{ url('/') }}" class="label-2 footer-link hover-underline">Home</a>
-                </li>
-                <li>
-                    <a href="#" class="label-2 footer-link hover-underline">Menu</a>
-                </li>
-                <li>
-                    <a href="{{ url('sobrenos') }}" class="label-2 footer-link hover-underline">Sobre nós</a>
-                </li>
-                <li>
-                    <a href="#ComoFunciona" class="label-2 footer-link hover-underline">Nosso Projeto</a>
-                </li>
-                <li>
-                    <a href="{{ url('delivery') }}" class="label-2 footer-link hover-underline">Delivery</a>
-                </li>
-            </ul>
+            <div class="footer-bottom">
 
-            <ul class="footer-list">
-                <li>
-                    <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
-                </li>
-                <li>
-                    <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
-                </li>
-                <li>
-                    <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
-                </li>
-                <li>
-                    <a href="#" class="label-2 footer-link hover-underline">Google Maps</a>
-                </li>
-            </ul>
+            </div>
 
         </div>
-
-        <div class="footer-bottom">
-
-        </div>
-
-    </div>
-</footer>
+    </footer>
 
 
     <!-- Scripts -->
