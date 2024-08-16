@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="{{ asset('assets/css/delivery.css') }}">
+    <link rel="stylesheet" href="{{ asset('delivery.css') }}">
 </head>
 <body>
    
-@include('delivery_header')
 
 <section class="contact">
     <h1 class="title">Entrar em contato</h1>
@@ -39,8 +38,7 @@
     @endif
 </section>
 
-@include('footer')
 
-<script src="{{ asset('assets/js/script.js') }}"></script>
+<script src="{{ asset('js/script.js') }}"></script>
 </body>
 </html>

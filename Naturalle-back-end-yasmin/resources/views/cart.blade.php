@@ -50,13 +50,12 @@
                     </tbody>
                 </table>
                 <div class="actions mt-3 d-flex justify-content-between">
-                    <a href="{{ route('shop') }}" class="btn mr-2">Continuar Comprando</a>
+
                     <a href="{{ route('cart.deleteAll') }}" class="btn mr-2">Limpar Carrinho</a>
                     <a href="{{ route('checkout') }}" class="btn btn-success">Finalizar Compra</a>
                 </div>
             @else
                 <p class="empty-cart">Seu carrinho está vazio.</p>
-                <a href="{{ route('shop') }}" class="btn">Continuar Comprando</a>
             @endif
         </div>
     </div>
