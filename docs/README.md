@@ -36,6 +36,10 @@ Obrigado por seu interesse e apoio!
 
 A Naturalle é mais do que um restaurante; é um espaço dedicado à união do sabor e da solidariedade. Nosso propósito é criar uma experiência gastronômica única, oferecendo refeições veganas e vegetarianas, enquanto contribuímos para a comunidade por meio do projeto "Sabor Solidário". Este projeto visa apoiar pessoas em estado de vulnerabilidade, oferecendo refeições nutritivas através de uma rede de Organizações Não-Governamentais (ONGs). Além disso, a cada prato adquirido, uma marmita é automaticamente separada e doada a uma ONG cadastrada, permitindo que nossos clientes escolham para qual organização sua doação será direcionada.
 
+## FETESP
+
+A Feira de Tecnologia e Engenharia de São Paulo (FETESP) é um evento que celebra e promove a inovação tecnológica e científica. É uma oportunidade para estudantes e profissionais apresentarem seus projetos e descobertas para um público engajado. No nosso caso, a participação na FETESP permitirá que o projeto Naturalle receba visibilidade e feedback, contribuindo para o aprimoramento do nosso sistema e para a promoção da nossa missão de unir gastronomia e solidariedade.
+
 ## Considerações Finais
 
 A Naturalle representa um passo significativo para o desenvolvimento sustentável e inclusivo, combinando a paixão pela culinária vegana com um forte compromisso social. Ao participar deste projeto, buscamos não apenas oferecer uma experiência gastronômica excepcional, mas também fomentar a solidariedade e o apoio a quem mais precisa. Agradecemos a todos que contribuíram para o sucesso deste projeto e convidamos a comunidade a se unir a nós nesta jornada de transformação e apoio mútuo.
