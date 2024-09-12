@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - TAGS META
+  -->
+  <title>Naturalle</title>
+  <meta name="title" content="Naturalle- restaurante vegano e vegetariano">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - ICON DA PÁGINA
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/svg+xml">
+
+  <!-- 
+    - FONTES
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - LINK CSS
+  -->
+  <link rel="stylesheet" href="./assets/css/popuplogin.css">
+
+  <!-- 
+    - PRÉ IMAGENS ANTES DE CARREGAR
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+<div class="container">
+    <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+    <div class="popup" id="popup">
+        <img src="./tick.png.png" alt="">
+        <h2>Obrigado!</h2>
+        <p>Seu Login foi registrado com sucesso!</p>
+        <button type="button" onclick="closePopup()">OK</button>
+     </div>
+</div>
+ <script>
+    let popup = document.getElementById("popup");
+
+    function openPopup(){
+        popup.classList.add("open-popup");
+
+    }
+    function closePopup(){
+        popup.classList.remove("open-popup");
+        
+    }
+ </script>
+
+
+
+  </body>
+</html>
